@@ -11,10 +11,10 @@
 </head>
 <body>
     <main>
-        <div class="container">
-            <div class="card-deck">
+        <div class="container"> 
+            <div class="row">
                 @foreach($movies as $movie)
-                    <div class="card">
+                    <div class="card cards-3">
                         <div class="card-body">
                             <h5 class="card-title">{{$movie->title}}</h5>
                             <p class="card-text">{{$movie->original_title}}</p>

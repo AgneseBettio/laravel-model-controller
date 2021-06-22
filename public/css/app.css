@@ -1,2 +1,7 @@
-
+.cards-3{
+    flex-basis: calc(100% / 3);
+}
+.wrap{
+    flex-wrap: wrap;
+}
 
